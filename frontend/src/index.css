@@ -1,0 +1,119 @@
+:root {
+  --bg-app: #090d16;
+  --bg-card: #0f172a;
+  --bg-card-hover: #162038;
+  --bg-elevated: #1e293b;
+  --bg-surface: #27354f;
+  --border-subtle: #1e293b;
+  --border-medium: #334155;
+  --border-accent: #38bdf8;
+
+  --text-main: #f8fafc;
+  --text-dim: #94a3b8;
+  --text-muted: #64748b;
+  --text-bright: #ffffff;
+
+  --risk-very-low: #10b981;
+  --risk-low: #84cc16;
+  --risk-moderate: #f59e0b;
+  --risk-high: #f97316;
+  --risk-very-high: #ef4444;
+
+  --susc-1: #d9d6ea;
+  --susc-2: #b5afd6;
+  --susc-3: #8e86bd;
+  --susc-4: #6a5fa5;
+  --susc-5: #43358a;
+
+  --trig-low: #93c5fd;
+  --trig-mod: #60a5fa;
+  --trig-high: #2563eb;
+  --trig-ext: #1e3a8a;
+
+  --accent-cyan: #38bdf8;
+  --accent-blue: #3b82f6;
+  --accent-indigo: #6366f1;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Leaflet dark theme adjustments */
+.leaflet-container {
+  background: #090d16 !important;
+  font-family: var(--font-sans) !important;
+}
+.leaflet-bar a {
+  background-color: var(--bg-elevated) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-medium) !important;
+}
+.leaflet-bar a:hover {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-bright) !important;
+}
+.leaflet-tooltip {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid var(--border-medium) !important;
+  color: var(--text-main) !important;
+  border-radius: var(--radius-sm) !important;
+  box-shadow: var(--shadow-md) !important;
+  font-weight: 500 !important;
+  padding: 4px 8px !important;
+}
+.leaflet-tooltip-left:before {
+  border-left-color: rgba(15, 23, 42, 0.95) !important;
+}
+.leaflet-tooltip-right:before {
+  border-right-color: rgba(15, 23, 42, 0.95) !important;
+}

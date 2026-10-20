@@ -1,0 +1,9 @@
+lat,lon,date,source,notes
+30.077795764038108,78.4938121249325,,sentinel2_proxy,NDVI drop 2018 on slope>20; proxy label
+30.10274034617759,78.57608147195265,,sentinel2_proxy,NDVI drop 2019 on slope>20; proxy label
+30.06774104939371,78.51517919561906,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label
+30.07461719030604,78.522911272822,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label
+30.079715912957912,78.52342284248527,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label
+30.08020079904877,78.52502449780434,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label
+30.085161949367887,78.5269599589165,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label
+30.127910527950924,78.59864551858925,,sentinel2_proxy,NDVI drop 2020 on slope>20; proxy label

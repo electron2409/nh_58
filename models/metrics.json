@@ -1,0 +1,49 @@
+{
+  "features": [
+    "elevation",
+    "slope",
+    "asp_sin",
+    "asp_cos",
+    "curvature",
+    "dist_road"
+  ],
+  "n_landslide": 37,
+  "n_nonlandslide": 37,
+  "cv_blocks": 5,
+  "metrics": {
+    "LogisticRegression": {
+      "AUC": 0.8341855368882396,
+      "Accuracy": 0.7972972972972973,
+      "Precision": 0.775,
+      "Recall": 0.8378378378378378,
+      "F1": 0.8051948051948052,
+      "CM": [
+        [
+          28,
+          9
+        ],
+        [
+          6,
+          31
+        ]
+      ]
+    },
+    "RandomForest": {
+      "AUC": 0.8663257852447042,
+      "Accuracy": 0.7432432432432432,
+      "Precision": 0.725,
+      "Recall": 0.7837837837837838,
+      "F1": 0.7532467532467533,
+      "CM": [
+        [
+          26,
+          11
+        ],
+        [
+          8,
+          29
+        ]
+      ]
+    }
+  }
+}
